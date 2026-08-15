@@ -68,7 +68,9 @@ document.querySelectorAll('.project[data-project-title]').forEach((project) => {
     projectModalTitle.textContent = project.dataset.projectTitle || '';
     projectModalText.textContent = project.dataset.projectText || '';
     projectModalResult.textContent = project.dataset.projectResult || '';
-    projectModalLink.href = project.dataset.projectLink || '#';
+    const repoLink = project.dataset.projectLink || '';
+    projectModalLink.href = repoLink || '#';
+    projectModalLink.style.display = repoLink ? 'inline-flex' : 'none';
 
     projectModal.classList.add('open');
     document.body.style.overflow = 'hidden';

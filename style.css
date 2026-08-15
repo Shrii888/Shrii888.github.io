@@ -275,3 +275,12 @@ a:focus-visible,button:focus-visible{outline:2px solid #78a9ff;outline-offset:4p
   .project-modal h3{font-size:32px}
   .project-modal-actions{flex-direction:column}
 }
+
+.project-link-disabled{
+  display:inline-block;
+  margin-top:8px;
+  font-size:13px;
+  font-weight:700;
+  color:#91a5c2;
+  cursor:default;
+}

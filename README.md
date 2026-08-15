@@ -6,7 +6,7 @@ Dark-blue portfolio website focused on Shriya Verma's transition into Data Analy
 - Project-focused About section
 - Selected analytics projects and business questions
 - Interactive 3D analytics visual with subtle mouse parallax
-- Downloadable resume in `resume/Shriya_Verma_Portfolio_Resume.pdf`
+- Downloadable resume in `Shriya_Verma_Portfolio_Resume.pdf`
 - Responsive navigation for desktop and mobile
 - GitHub, LinkedIn and email contact links
 
