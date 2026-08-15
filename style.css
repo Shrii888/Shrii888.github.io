@@ -284,37 +284,3 @@ a:focus-visible,button:focus-visible{outline:2px solid #78a9ff;outline-offset:4p
   color:#91a5c2;
   cursor:default;
 }
-
-/* Project dashboard preview */
-.project-dashboard-preview{
-  width:100%;
-  margin:0 0 24px;
-  border:1px solid rgba(120,169,255,.22);
-  border-radius:16px;
-  overflow:hidden;
-  background:#0b1527;
-}
-.project-dashboard-preview img{
-  display:block;
-  width:100%;
-  height:auto;
-  aspect-ratio:16/8;
-  object-fit:cover;
-  object-position:center;
-  transition:transform .35s ease;
-}
-.project:hover .project-dashboard-preview img{
-  transform:scale(1.015);
-}
-
-/* Dashboard inside project popup */
-.project-modal-image{
-  display:block;
-  width:100%;
-  max-height:420px;
-  object-fit:contain;
-  margin:0 0 22px;
-  border-radius:14px;
-  border:1px solid rgba(120,169,255,.22);
-  background:#0b1527;
-}
